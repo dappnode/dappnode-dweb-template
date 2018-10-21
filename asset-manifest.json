@@ -1,11 +1,13 @@
 {
-  "main.js": "./static/js/main.1e7a80cb.chunk.js",
-  "main.js.map": "./static/js/main.1e7a80cb.chunk.js.map",
-  "static/js/1.ee58f536.chunk.js": "./static/js/1.ee58f536.chunk.js",
-  "static/js/1.ee58f536.chunk.js.map": "./static/js/1.ee58f536.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
-  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.fdb1b7513f5cff702c6102fa44002b77.js": "./precache-manifest.fdb1b7513f5cff702c6102fa44002b77.js",
-  "service-worker.js": "./service-worker.js"
+  "main.css": "/dappnode-dweb-template/static/css/main.53f33b1d.chunk.css",
+  "main.js": "/dappnode-dweb-template/static/js/main.d61f38f8.chunk.js",
+  "main.js.map": "/dappnode-dweb-template/static/js/main.d61f38f8.chunk.js.map",
+  "static/js/1.d7b27eab.chunk.js": "/dappnode-dweb-template/static/js/1.d7b27eab.chunk.js",
+  "static/js/1.d7b27eab.chunk.js.map": "/dappnode-dweb-template/static/js/1.d7b27eab.chunk.js.map",
+  "runtime~main.js": "/dappnode-dweb-template/static/js/runtime~main.cdf920ac.js",
+  "runtime~main.js.map": "/dappnode-dweb-template/static/js/runtime~main.cdf920ac.js.map",
+  "static/css/main.53f33b1d.chunk.css.map": "/dappnode-dweb-template/static/css/main.53f33b1d.chunk.css.map",
+  "index.html": "/dappnode-dweb-template/index.html",
+  "precache-manifest.3044b6f55b7e0110c3c61a63310a25cb.js": "/dappnode-dweb-template/precache-manifest.3044b6f55b7e0110c3c61a63310a25cb.js",
+  "service-worker.js": "/dappnode-dweb-template/service-worker.js"
 }
