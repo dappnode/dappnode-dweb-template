@@ -33,7 +33,7 @@ class App extends Component {
             <div className="layout">
               {/* Hero unit */}
               <div className="hero-content">
-                <div className="hero-title" variant="h2" gutterBottom>
+                <div className="hero-title">
                   {/* 
                 
                 
@@ -57,7 +57,14 @@ class App extends Component {
                 </div>
               </div>
 
-              <TextField
+              {/* 
+
+
+                Uncomment code below
+              
+
+              */}
+              {/* <TextField
                 label="Ethereum address"
                 style={{ marginBottom: "30px" }}
                 error={addressError}
@@ -66,14 +73,20 @@ class App extends Component {
                 onChange={this.addrChange.bind(this)}
               />
 
-              {/* Chain cards */}
               <Grid container spacing={40}>
                 {Object.keys(providers).map((provider, i) => (
                   <Grid key={i} item xs={3}>
                     <ChainCard provider={providers[provider]} />
                   </Grid>
                 ))}
-              </Grid>
+              </Grid> */}
+              {/* 
+
+
+                Uncomment code above
+              
+
+              */}
             </div>
           </main>
         </React.Fragment>
