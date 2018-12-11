@@ -118,5 +118,7 @@ Telegram: https://t.me/dappnode
 
 Riot: https://riot.im/app/#/room/#DAppNode:matrix.org
 
+## License
 
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
