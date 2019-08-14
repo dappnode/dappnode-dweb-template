@@ -4,10 +4,10 @@
     "http": "http://my.ethchain.dnp.dappnode.eth:8545",
     "ws": "ws://my.ethchain.dnp.dappnode.eth:8546"
   },
-  "ropsten": {
-    "name": "Ropsten",
-    "http": "http://my.ropsten.dnp.dappnode.eth:8545",
-    "ws": "ws://my.ropsten.dnp.dappnode.eth:8546"
+  "goerli": {
+    "name": "Görli",
+    "http": "http://goerli-geth.dappnode:8545",
+    "ws": "ws://goerli-geth.dappnode:8546"
   },
   "rinkeby": {
     "name": "Rinkeby",
