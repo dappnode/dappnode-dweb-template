@@ -1,8 +1,8 @@
 {
   "mainnet": {
     "name": "Mainnet",
-    "http": "http://my.ethchain.dnp.dappnode.eth:8545",
-    "ws": "ws://my.ethchain.dnp.dappnode.eth:8546"
+    "http": "http://ethchain.dappnode:8545",
+    "ws": "ws://ethchain.dappnode:8546"
   },
   "goerli": {
     "name": "Görli",
@@ -11,12 +11,12 @@
   },
   "rinkeby": {
     "name": "Rinkeby",
-    "http": "http://my.rinkeby.dnp.dappnode.eth:8545",
-    "ws": "ws://my.rinkeby.dnp.dappnode.eth:8546"
+    "http": "http://rinkeby.dappnode:8545",
+    "ws": "ws://rinkeby.dappnode:8546"
   },
   "kovan": {
     "name": "Kovan",
-    "http": "http://my.kovan.dnp.dappnode.eth:8545",
-    "ws": "ws://my.kovan.dnp.dappnode.eth:8546"
+    "http": "http://kovan.dappnode:8545",
+    "ws": "ws://kovan.dappnode:8546"
   }
 }
