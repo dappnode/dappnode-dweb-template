@@ -32,6 +32,8 @@ npm i
 npm start
 ```
 
+You can now preview the website locally at http://localhost:3000
+
 ## 2. Deploying the dweb
 
 First, let's personalize the website briefly and deploy it to IPFS.
