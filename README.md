@@ -3,12 +3,15 @@
 This tutorial will guide you in building and deploying a decentralized website. You will publish it in IPFS and then point an .eth domain to it using the Ethereum Name Service (ENS).
 
 ## 1. Installing the tools
+
 ### 1.1 Pre-requisites
+
 If you don’t have it installed yet, you need to install Node.js in your laptop.
 
-Last stable version of Node.js (Or 8.12.0) works just fine. 
+Last stable version of Node.js (Or 10.16.2) works just fine.
 
 ### 1.2 Clone and setup the template
+
 The template is a simple create-react-app with preconfiguration and deploy scripts. Just run
 
 ```
@@ -21,28 +24,34 @@ then,
 yarn
 yarn start
 ```
+
 or
+
 ```
 npm i
 npm start
 ```
 
+You can now preview the website locally at http://localhost:3000
+
 ## 2. Deploying the dweb
+
 First, let's personalize the website briefly and deploy it to IPFS.
 
-Go to `src/App.js` line 44 and write your name, brand or a just message.
+Edit `src/App.js` line 44 and write your name, brand or a just message.
 
 ```javascript
-<div className="hero-title">  
-  Welcome to "name"          // line 44
-</div>
+<div className="hero-title">Welcome to "name" // line 44</div>
 ```
 
 Then, run:
+
 ```
 yarn run publish
 ```
+
 or
+
 ```
 npm run publish
 ```
@@ -91,28 +100,41 @@ To preview you website immediately go to:
    http://my.ipfs.dnp.dappnode.eth:8080/ipfs/QmcR2GFrcQpLsMfBYMqrfebXizByZ2XbxjRN957LermuXW
 ```
 
+Use the link provided to see your DWeb published on IPFS.
+
 ## 3. Use DAppNode providers
-The project folder contains the file `providers.json` with the info of all 4 ethereum networks available in this DAppNode.
-You can uncommented a component that will all these DAppNode's providers. To do so, uncomment the code block between lines xx - yy
+
+We can also use Ethereum APIs provided by DAppNode.
+
+The `src/` folder contains the file `providers.json` with the info of all ethereum networks available in this DAppNode.
+
+You can uncomment a component that will list all these DAppNode's providers. To do so, uncomment the code block between lines 60 - 89 in `App.js`:
 
 ```javascript
-{Object.keys(providers).map((provider, i) => (
+{
+  Object.keys(providers).map((provider, i) => (
     <Grid key={i} item xs={3}>
-        <ChainCard provider={providers[provider]} />
+      <ChainCard provider={providers[provider]} />
     </Grid>
-))}
+  ));
+}
 ```
 
 Now run again:
+
 ```
 yarn run publish
 ```
+
 or
+
 ```
 npm run publish
 ```
 
-Now go to: dweb.dappnode.eth
+Go to dweb.dappnode.eth to see a working template from ENS.
+
+Join our community if you have any doubts:
 
 Telegram: https://t.me/dappnode
 
@@ -121,4 +143,3 @@ Riot: https://riot.im/app/#/room/#DAppNode:matrix.org
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
-
