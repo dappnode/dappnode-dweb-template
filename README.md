@@ -136,9 +136,9 @@ Go to dweb.dappnode.eth to see a working template from ENS.
 
 Join our community if you have any doubts:
 
-Telegram: https://t.me/dappnode
+Element: https://app.element.io/#/room/#DAppNode:matrix.org
 
-Riot: https://riot.im/app/#/room/#DAppNode:matrix.org
+Telegram: https://t.me/dappnode
 
 ## License
 
